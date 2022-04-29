@@ -1,10 +1,7 @@
 # 1) İstifadəçidən aldığı yaş dəyərinə əsasən yetkinlik yaşına çatmış şəxsləri təyin edən skript
 
-print('Zəhmət olmasa yaşınızı qeyd edin:')
-a = input()
-print('Yaşınız,' + a)
-
-if a >= 18:
-    print("Sizə icazə var")
+a = int(input("Zəhmət olmasa yaşınızı qeyd edin: "))
+if (a >= 18):
+       print("icazə var".format(a))
 else:
-    print("Sizə icazə yoxdur")
+   print("icazə  yoxur".format(a))

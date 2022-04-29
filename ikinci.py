@@ -1,12 +1,7 @@
 # 2) İstifadəçidən aldığı ədədin tək və ya cüt olmasını təyin edən skript
-
-print('Zəhmət olmasa ədəd qeyd edin:')
-a = input()
-
-b = []
-for i in a:
-  if i % 2 != 0:
-      b.append(i)
-print(b)
-
+ədəd = int(input("Ədədi daxil edin: "))
+if (ədəd % 2) == 0:
+   print("{0} cütdür".format(ədəd))
+else:
+   print("{0} təkdir".format(ədəd))
 
